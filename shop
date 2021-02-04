@@ -1,0 +1,82 @@
+:root{
+    --black-color: #222222;
+    --pink-color: #F1E4E6;
+    --dark-pink-color: #F16D7F;
+}
+
+.body{
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--black-color);
+    
+}
+.header__wrapper{
+    display: flex;
+    min-height: 75px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+}
+
+.header__navigation{
+    display: none;
+}
+
+.header__logo-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin-right: 40px;
+}
+
+.header__button{
+    background-color: transparent;
+    border: none;
+    margin-left: 33px;
+}
+
+.main__logo{
+    display: flex;
+}
+
+.main__heading_wrapper{
+    background-color: var(--pink-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 40px;
+}
+
+.main__heading{ 
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase; 
+}
+.main__heading_small{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+}
+.main__heading_pink{
+    color: var(--dark-pink-color);
+    display: block;
+}
